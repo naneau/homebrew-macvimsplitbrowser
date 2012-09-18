@@ -6,7 +6,7 @@ class MacvimSplitBrowser < Formula
   version '20120109'
   md5 'c6fcbb59f3179161e11849051ac08aab'
 
-  head 'https://github.com/alloy/macvim.git', :branch => 'split-browser'
+  head 'https://github.com/alloy/macvim.git', :branch => 'split-browser-update'
 
   def options
   [
