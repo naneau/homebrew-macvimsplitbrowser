@@ -4,7 +4,7 @@ class MacvimSplitBrowser < Formula
   homepage 'https://github.com/rcarmo/macvim'
   url 'https://github.com/rcarmo/macvim/tarball/d241428f4ac8b4234c283ddde64c6e6c5bcf4a41'
   version '20130721'
-  md5 '0452390a906c0d1d48178e166e9451c8'
+  sha1 'd241428f4ac8b4234c283ddde64c6e6c5bcf4a41'
 
   head 'https://github.com/rcarmo/macvim.git', :branch => 'split-browser'
 
