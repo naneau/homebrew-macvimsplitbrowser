@@ -2,9 +2,9 @@ require 'formula'
 
 class MacvimSplitBrowser < Formula
   homepage 'https://github.com/rcarmo/macvim'
-  url 'https://github.com/rcarmo/macvim/tarball/d241428f4ac8b4234c283ddde64c6e6c5bcf4a41'
-  version '20130721'
-  sha1 'd241428f4ac8b4234c283ddde64c6e6c5bcf4a41'
+  url 'https://github.com/rcarmo/macvim/tarball/06840b4cc44c20375852c8814703d0d45d5db68c'
+  version '20130810'
+  sha1 '45aa797c7e9992c7000fc49bcb58c10e95d652ae'
 
   head 'https://github.com/rcarmo/macvim.git', :branch => 'split-browser'
 
