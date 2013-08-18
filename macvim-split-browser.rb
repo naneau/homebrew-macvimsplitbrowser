@@ -3,7 +3,7 @@ require 'formula'
 class MacvimSplitBrowser < Formula
   homepage 'https://github.com/rcarmo/macvim'
   url 'https://github.com/rcarmo/macvim/tarball/06840b4cc44c20375852c8814703d0d45d5db68c'
-  version '20130810'
+  version '20130819'
   sha1 '45aa797c7e9992c7000fc49bcb58c10e95d652ae'
 
   head 'https://github.com/rcarmo/macvim.git', :branch => 'split-browser'
@@ -22,7 +22,7 @@ class MacvimSplitBrowser < Formula
 
   def install
     # MacVim's Xcode project gets confused by $CC, so remove it
-    ENV['CC'] = nil
+    ENV['CC'] = "clang"
     ENV['CFLAGS'] = nil
     ENV['CXX'] = nil
     ENV['CXXFLAGS'] = nil
