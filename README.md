@@ -1,6 +1,6 @@
 # homebrew-macvim-split-browser
 
-This tap hosts the formula for [**MacVim with file browser**](https://github.com/alloy/macvim/)
+This tap hosts the formula for [**MacVim with file browser**](https://github.com/rcarmo/macvim)
 
 ```
 $ brew tap joelcogen/macvimsplitbrowser
